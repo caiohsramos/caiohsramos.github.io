@@ -44,9 +44,31 @@ jobs:
 
       - name: Upload to IPFS
         uses: aquiladev/ipfs-action@cb917f89640f3d6191713b2419828276940fd4ec
+        id: upload-ipfs
         with:
           path: ./build
           service: pinata
           pinataKey: ${{ secrets.PINATA_KEY }}
           pinataSecret: ${{ secrets.PINATA_SECRET }}
           pinataPinName: Portfolio
+      
+      - name: Update DNSLink on Cloudflare
+        env:
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+          CLOUDFLARE_DNS_ID: ${{ secrets.CLOUDFLARE_DNS_ID }}
+          CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
+          CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
+          IPFS_HASH: ${{ steps.upload-ipfs.outputs.hash }}
+        run: |
+          curl --location --request PUT 'https://api.cloudflare.com/client/v4/zones/'"$CLOUDFLARE_ZONE_ID"'/dns_records/'"$CLOUDFLARE_DNS_ID"'' \
+          --header 'Content-Type: application/json' \
+          --header 'X-Auth-Key: '"$CLOUDFLARE_API_KEY"'' \
+          --header 'X-Auth-Email: '"$CLOUDFLARE_EMAIL"'' \
+          --data-raw '{
+              "type": "TXT",
+              "name": "_dnslink",
+              "content": "'"$IPFS_HASH"'",
+              "ttl": 1
+          }'
+          
+          
