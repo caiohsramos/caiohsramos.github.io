@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react"
 import ReactMarkdown from 'react-markdown'
 import raw from "raw.macro"
-import 'github-markdown-css'
 import { useHistory } from "react-router-dom";
-import "./BlogPost.css"
 
 export default ({ match: { params: { id } } }) => {
   const [mdText, setMdText] = useState("")
