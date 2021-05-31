@@ -9,7 +9,7 @@ const StyledContainer = styled.div`
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
-  :hover {
+  &:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
   }
 `;
