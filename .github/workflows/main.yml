@@ -71,7 +71,7 @@ jobs:
           --data-raw '{
               "type": "TXT",
               "name": "_dnslink",
-              "content": "'"$IPFS_HASH"'",
+              "content": "dnslink=/ipfs/'"$IPFS_HASH"'",
               "ttl": 1
           }'
           
