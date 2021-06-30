@@ -1,0 +1,55 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: me
+    entries:
+      - title: software developer focused on Rails, React and Python applications / enthusiast of the decentralized world
+      - title: github
+        url: https://github.com/caiohsramos
+      - title: linkedin
+        url: https://www.linkedin.com/in/caiohsramos
+      - title: email
+        url: mailto:caioramos97@gmail.com
+
+  - title: education
+    entries:
+      - title: Bachelor of Computer Science @ Universidade de São Paulo
+      - title: January 2015 - December 2019
+      - title: Emphasis on Software systems
+      - title: 1st year at ICMC-USP @ São Carlos
+      - title: Remaining at IME-USP @ São Paulo
+
+  - title: experience
+    entries:
+      - title: Easynvest
+        entries:
+          - title: Intern
+          - title: July 2018 – June 2019
+          - title: Development of a microservice in Python using Flask, Redis, Oracle and Pandas with unit tests to calculate historical wallet's rentability
+          - title: Deployment using Docker and Kubernetes
+          - title: Agile workflow with sprints
+          - title: Financial/stock market knowledge
+      - title: Pier
+        entries:
+          - title: Software Engineer
+          - title: August 2017 – Present
+          - title: Development of backend Rails applications with Sidekiq and React/React Native frontend
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  #  - title: ruby posts
+  #    post_list:
+  #      category: ruby
+  #      limit: 5
+  #      show_more: true
+  #      show_more_text: See more posts...
+  #      show_more_url: ruby-archive.html
+
+  - title: rss
+    url: feed.xml

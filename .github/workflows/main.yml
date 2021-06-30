@@ -2,10 +2,10 @@
 
 name: CD
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -19,43 +19,35 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Use Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/setup-ruby@v1
         with:
-          node-version: '14.16.1'
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+          ruby-version: "2.7"
 
       - uses: actions/cache@v2
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-gems-
 
-      - name: Install dependencies
-        run: yarn --frozen-lockfile
-      
+      - name: Bundle install
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+
       - name: Build project
-        env:
-          REACT_APP_GITHUB_TOKEN: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
-          GH_USERNAME: ${{ secrets.GH_USERNAME }}
-          USE_GITHUB_DATA: ${{ secrets.USE_GITHUB_DATA }}
-        run: yarn build
+        run: bundle exec jekyll build
 
       - name: Upload to IPFS
         uses: aquiladev/ipfs-action@cb917f89640f3d6191713b2419828276940fd4ec
         id: upload-ipfs
         with:
-          path: ./build
+          path: ./_site
           service: pinata
           pinataKey: ${{ secrets.PINATA_KEY }}
           pinataSecret: ${{ secrets.PINATA_SECRET }}
           pinataPinName: Portfolio
-      
+
       - name: Update DNSLink on Cloudflare
         env:
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
@@ -74,5 +66,3 @@ jobs:
               "content": "dnslink=/ipfs/'"$IPFS_HASH"'",
               "ttl": 1
           }'
-          
-          
