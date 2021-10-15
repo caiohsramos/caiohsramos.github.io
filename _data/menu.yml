@@ -26,15 +26,22 @@ entries:
         entries:
           - title: Intern
           - title: July 2018 – June 2019
-          - title: Development of a microservice in Python using Flask, Redis, Oracle and Pandas with unit tests to calculate historical wallet's rentability
+          - title: Development of a microservice in Python using Flask, Redis, Oracle and Pandas with unit tests
           - title: Deployment using Docker and Kubernetes
           - title: Agile workflow with sprints
-          - title: Financial/stock market knowledge
+          - title: Investments and stock market knowledge
       - title: Pier
         entries:
           - title: Software Engineer
-          - title: August 2017 – Present
-          - title: Development of backend Rails applications with Sidekiq and React/React Native frontend
+          - title: August 2019 – Present
+          - title: Primarly developing testable APIs (services) with Rails, with async jobs and state machines
+          - title: Contributions to the frontend in React, React Native and Rails
+          - title: Participation in the planning and development of projects such as:
+            entries:
+              - title: Partners integration maintenance
+              - title: Car insurance launch
+              - title: Adaptations for the new regulatory sandbox
+              - title: Instant claim payments
 
   - title: all posts
     post_list:
