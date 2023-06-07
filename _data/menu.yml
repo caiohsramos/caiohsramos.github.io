@@ -4,7 +4,7 @@
 entries:
   - title: me
     entries:
-      - title: software developer focused on Rails, React and Python applications / enthusiast of the decentralized world
+      - title: senior software engineer [ruby rails react linux]
       - title: github
         url: https://github.com/caiohsramos
       - title: linkedin
@@ -33,7 +33,7 @@ entries:
       - title: Pier
         entries:
           - title: Software Engineer
-          - title: August 2019 – Present
+          - title: August 2019 – October 2022
           - title: Primarly developing testable APIs (services) with Rails, with async jobs and state machines
           - title: Contributions to the frontend in React, React Native and Rails
           - title: "Participation in the planning and development of projects such as:"
@@ -42,6 +42,10 @@ entries:
               - title: Car insurance launch
               - title: Adaptations for the new regulatory sandbox
               - title: Instant claim payments
+      - title: Housecall Pro
+        entries:
+          - title: Senior Software Engineer
+          - title: October 2022 - Present
 
   - title: all posts
     post_list:
