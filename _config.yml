@@ -10,7 +10,6 @@ favicon: "logo.png" # name+extension of favicon (which must be put on the root f
 
 # Build settings
 markdown: kramdown
-theme: no-style-please
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
