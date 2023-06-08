@@ -6,6 +6,7 @@ categories: dev ipfs
 ---
 
 ## IPFS - Interplanetary File System
+### Edit: Pinata has restricted HTTP uploads, so this guide is deprecated :(
 
 > A peer-to-peer hypermedia protocol designed to preserve and grow humanity's knowledge by making the web upgradeable, resilient, and more open.
 
