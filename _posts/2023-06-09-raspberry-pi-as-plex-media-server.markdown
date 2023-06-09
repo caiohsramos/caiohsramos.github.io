@@ -29,5 +29,33 @@ Establishes a secure outbound connection which runs in your infrastructure to co
 
 ## First things first
 
-### Create your Plex account
+### 1. Create your Plex account
 
+Go to https://www.plex.tv/sign-up/ and sign up.
+
+### 2. Create your Cloudflare account and add your domain
+
+You can create your Cloudflare account at https://dash.cloudflare.com/sign-up, and configure your domain with this guide: https://developers.cloudflare.com/fundamentals/get-started/setup/add-site/
+
+### 3. Flash Raspberry Pi OS
+
+Install Raspberry Pi Imager from https://www.raspberrypi.com/software/ and flash Raspberry Pi OS into your SD Card.
+
+## Media server up and running
+
+You can install Plex Server with an official Plex package repository.
+
+> You may need to install HTTPS support for APT
+> ```
+> sudo apt-get install apt-transport-https
+> ```
+
+* [Enable repository updating for supported Linux server distributions (DEB-based distros).](https://support.plex.tv/articles/235974187-enable-repository-updating-for-supported-linux-server-distributions/)
+* `sudo apt-get install plexmediaserver`
+* Go to `http://localhost:32400/web` and finish you configuration
+
+## All Cloudflare things
+
+We want to be able to configure our media server from anywhere we need. This section will go through the configuration proccess to have an SSH shell accessible from anywhere, with proper auth and without oppening ports from your routes.
+
+IN PROGRESS
