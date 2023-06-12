@@ -58,7 +58,7 @@ You can install Plex Server with an official Plex package repository.
 
 We want to be able to configure our media server from anywhere we need. This section will go through the configuration proccess to have an SSH shell accessible from anywhere, with proper auth and without oppening ports from our router.
 
-Cloudflare Zero Trust will be used to manage access, and can be initialized by clicking in the sidebar button at your dashboard ![cloudflare](/assets/cloudflare.png | width=100)
+Cloudflare Zero Trust will be used to manage access, and can be initialized by clicking in the sidebar button at your dashboard ![cloudflare](/assets/cloudflare.png)
 
 ### Create an application
 After adding your payment method, you will be redirected to the Cloudflare One dashboard. The first step is to add an application:
@@ -67,7 +67,7 @@ After adding your payment method, you will be redirected to the Cloudflare One d
 * Select `Self-hosted`
 * Name your application and set the domain to something like `myssh.yourdomain.com`
 * Setup your access policy, more information at https://developers.cloudflare.com/cloudflare-one/policies/access/
-* In `Settings`, select SSH as the `Browser rendering` option ![settings](/assets/additional-settings.png | width=100)
+* In `Settings`, select SSH as the `Browser rendering` option ![settings](/assets/additional-settings.png)
 
 ### Create a tunnel
 The next step is to create a tunnel, so your application can be redirected to your Raspberry Pi network:
