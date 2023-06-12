@@ -56,6 +56,8 @@ You can install Plex Server with an official Plex package repository.
 
 ## All Cloudflare things
 
-We want to be able to configure our media server from anywhere we need. This section will go through the configuration proccess to have an SSH shell accessible from anywhere, with proper auth and without oppening ports from your routes.
+We want to be able to configure our media server from anywhere we need. This section will go through the configuration proccess to have an SSH shell accessible from anywhere, with proper auth and without oppening ports from our router.
+
+Cloudflare Zero Trust will be used to manage access, and can be initialized by clicking in the sidebar button at your dashboard ![Cloudflare](/assets/cloudflare.png)
 
 IN PROGRESS
