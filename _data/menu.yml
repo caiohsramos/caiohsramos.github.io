@@ -24,14 +24,10 @@ entries:
 
   - title: experience
     entries:
-      - title: Easynvest
+      - title: Housecall Pro
         entries:
-          - title: Intern
-          - title: July 2018 – June 2019
-          - title: Development of a microservice in Python using Flask, Redis, Oracle and Pandas with unit tests
-          - title: Deployment using Docker and Kubernetes
-          - title: Agile workflow with sprints
-          - title: Investments and stock market knowledge
+          - title: Senior Software Engineer
+          - title: October 2022 - Present
       - title: Pier
         entries:
           - title: Software Engineer
@@ -44,10 +40,14 @@ entries:
               - title: Car insurance launch
               - title: Adaptations for the new regulatory sandbox
               - title: Instant claim payments
-      - title: Housecall Pro
+      - title: Easynvest
         entries:
-          - title: Senior Software Engineer
-          - title: October 2022 - Present
+          - title: Intern
+          - title: July 2018 – June 2019
+          - title: Development of a microservice in Python using Flask, Redis, Oracle and Pandas with unit tests
+          - title: Deployment using Docker and Kubernetes
+          - title: Agile workflow with sprints
+          - title: Investments and stock market knowledge
 
   - title: all posts
     post_list:
