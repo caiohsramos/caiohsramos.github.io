@@ -11,6 +11,8 @@ entries:
         url: https://www.linkedin.com/in/caiohsramos
       - title: email
         url: mailto:caioramos97@gmail.com
+      - title: mastodon
+        url: https://mastodon.social/@caiohsramos
 
   - title: education
     entries:
