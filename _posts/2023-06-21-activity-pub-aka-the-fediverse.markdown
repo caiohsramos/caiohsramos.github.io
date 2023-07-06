@@ -42,7 +42,7 @@ The instance owner can also decide whether or not block communication with other
 
 ## The future of the Fediverse
 
-The future of the universe of ActivityPub implementations (also known as Fediverse or Federated universe) is unknown. The reality is that we have a mix of open-source applications, and Meta is coming to the game with [Threads](threads.net). Here are a few questions that only time can answer:
+The future of the universe of ActivityPub implementations (also known as Fediverse or Federated universe) is unknown. The reality is that we have a mix of open-source applications, and Meta is coming to the game with [Threads](https://www.threads.net). Here are a few questions that only time can answer:
 
 - How the current fediverse (open-source projects) will react to the addition of Threads? Will we see a mass "defederation"?
 - What's Meta's goal with federation? They'll have access to a lot of user data for free, but will this be enough? Can we expect an _Embrace, extend, and extinguish_ strategy?
