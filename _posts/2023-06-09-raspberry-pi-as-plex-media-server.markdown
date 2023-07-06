@@ -15,7 +15,7 @@ Is a series of small single-board ARM-based computers. This experiment used the 
 
 ### Plex Media Server
 
-Is [free software](https://www.plex.tv) that allows users to create a client–server for movies, television shows, and music. Plex Media Server organizes movie and television content and adds posters, plot summaries, cast and crew lists, technical details, critical reviews, and subtitles. Plex Media Server is also capable of transcoding files if the codec is incompatible with the device playing the media.
+Is a [free software](https://www.plex.tv) that allows users to create a client–server for movies, television shows, and music. Plex Media Server organizes movie and television content and adds posters, plot summaries, cast and crew lists, technical details, critical reviews, and subtitles. Plex Media Server is also capable of transcoding files if the codec is incompatible with the device playing the media.
 
 A Plex Media Server can function as a home theater PC and can stream content to Plex's front-end media player client applications that run on a myriad of devices and web browsers.
 
@@ -67,7 +67,9 @@ After adding your payment method, you will be redirected to the Cloudflare One d
 * Select `Self-hosted`
 * Name your application and set the domain to something like `myssh.yourdomain.com`
 * Setup your access policy, more information at https://developers.cloudflare.com/cloudflare-one/policies/access/
-* In `Settings`, select SSH as the `Browser rendering` option ![settings](/assets/additional-settings.png)
+* In `Settings`, select SSH as the `Browser rendering` option
+
+![settings](/assets/additional-settings.png)
 
 ### Create a tunnel
 The next step is to create a tunnel, so your application can be redirected to your Raspberry Pi network:
@@ -77,5 +79,6 @@ The next step is to create a tunnel, so your application can be redirected to yo
 * Add a public host name that matches the one you added to your Application, like `myssh.yourdomain.com`
 * Select SSH as the service type
 * Protect your public hostname with `Access` (select the application you just created)
-![Alt text](/assets/tunnel-access.png | width=100)
+
+![tunnel](/assets/tunnel-access.png)
 
