@@ -24,10 +24,11 @@ entries:
   - title: education
     entries:
       - title: Bachelor of Computer Science @ Universidade de São Paulo
-      - title: January 2015 - December 2019
-      - title: Emphasis on Software systems
-      - title: 1st year at ICMC-USP @ São Carlos
-      - title: Remaining at IME-USP @ São Paulo
+        entries:
+          - title: January 2015 - December 2019
+          - title: 1st year at ICMC-USP @ São Carlos
+          - title: Remaining at IME-USP @ São Paulo
+          - title: Emphasis on Software systems
 
   - title: experience
     entries:
