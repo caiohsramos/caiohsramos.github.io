@@ -14,6 +14,13 @@ entries:
       - title: mastodon
         url: https://mastodon.social/@caiohsramos
 
+  - title: thoughts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
   - title: education
     entries:
       - title: Bachelor of Computer Science @ Universidade de São Paulo
@@ -48,13 +55,6 @@ entries:
           - title: Deployment using Docker and Kubernetes
           - title: Agile workflow with sprints
           - title: Investments and stock market knowledge
-
-  - title: all posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
 
   #  - title: ruby posts
   #    post_list:
