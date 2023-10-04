@@ -57,5 +57,5 @@ This is probably the hardest part :( There's a lot of data that is only availabl
 	- Almost all news website have a feed, search for `rss <news provider>`
 ## Pro tips
 - [RSSHub](https://github.com/DIYgod/RSSHub) is great to get feeds for stuff that is not easily available like Telegram channels, Spotify-only podcasts, etc.
-  - I self-host myself and it saves me a lot with content from "the outside"
+  - I self-host it myself and it saves me a lot with content from "the outside"
 - Change the FOMO mentality; don't beat yourself you for not being able to keep every reading up-to-date, or to miss a couple of posts. If it's something really important, I'm sure the information will get to you in time :)
