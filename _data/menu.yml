@@ -16,9 +16,9 @@ entries:
 
   - title: thoughts
     post_list:
-      limit: 5
+      limit: 10
       show_more: true
-      show_more_text: See archive...
+      show_more_text: See all...
       show_more_url: archive.html
 
   - title: education
@@ -34,24 +34,32 @@ entries:
     entries:
       - title: Housecall Pro
         entries:
+          - title: Staff Software Engineer
+            entries:
+              - title: April 2024 - Present
           - title: Senior Software Engineer
-          - title: October 2022 - Present
+            entries:
+              - title: October 2022 - April 2024
       - title: Pier
         entries:
-          - title: Software Engineer
-          - title: August 2019 – October 2022
-          - title: Primarly developing testable APIs (services) with Rails, with async jobs and state machines
-          - title: Contributions to the frontend in React, React Native and Rails
-          - title: "Participation in the planning and development of projects such as:"
+          - title: Staff Software Engineer
             entries:
-              - title: Partners integration maintenance
-              - title: Car insurance launch
-              - title: Adaptations for the new regulatory sandbox
-              - title: Instant claim payments
+              - title: February 2022 - September 2022
+          - title: Software Engineer I-III
+            entries:
+              - title: August 2019 - February 2022
+              - title: Primarily developing testable APIs (services) with Rails, with async jobs and state machines
+              - title: Contributions to the frontend in React, React Native and Rails
+              - title: "Participation in the planning and development of projects such as:"
+                entries:
+                  - title: Partners integration maintenance
+                  - title: Car insurance launch
+                  - title: Adaptations for the new regulatory sandbox
+                  - title: Instant claim payments
       - title: Easynvest
         entries:
-          - title: Intern
-          - title: July 2018 – June 2019
+          - title: Software Engineer Intern
+          - title: July 2018 - June 2019
           - title: Development of a microservice in Python using Flask, Redis, Oracle and Pandas with unit tests
           - title: Deployment using Docker and Kubernetes
           - title: Agile workflow with sprints
