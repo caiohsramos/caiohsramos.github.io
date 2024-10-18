@@ -7,7 +7,7 @@ categories: dev ruby rails
 
 ## Rails World 2024
 
-I had the amazing opportunity to be at Rails World 2024 in Toronto, CA. It was my first time in Canada and attending an internation conference. I had opportunity to meet some very nice people, and chat about one of the things I most enjoy doing: programming.
+I had the amazing opportunity to be at Rails World 2024 in Toronto, CA. It was my first time in Canada and attending an international conference. I had opportunity to meet some very nice people, and chat about one of the things I most enjoy doing: programming.
 Being there was a confirmation of the incredible community behind the Ruby on Rails ecosystem. People that not only love technology, but also the journey of building web applications with tools that bring joy to programmers.
 
 All the talks are now available at Rails World's [Youtube channel](https://www.youtube.com/playlist?list=PLHFP2OPUpCeb182aDN5cKZTuyjn3Tdbqx).
@@ -24,7 +24,7 @@ This concept connects well with the new tools that will be defaults for new Rail
 - SQLite by default and production ready.
 
 Kamal also allows you to run and manage you own "accessories" such as databases, cache storages, and other services that complement your application. 
-I'm not sure if I would trust myself to run my own Postgres instance in production from scratch, specially when I consider that managed solutions like [Managed Databases fro DigitalOcean](https://www.digitalocean.com/pricing/managed-databases#postgresql) start as low as $15 with a lot of out-of-the-box features; but it's definetly a powerful tool
+I'm not sure if I would trust myself to run my own Postgres instance in production from scratch, specially when I consider that managed solutions like [Managed Databases fro DigitalOcean](https://www.digitalocean.com/pricing/managed-databases#postgresql) start as low as $15 with a lot of out-of-the-box features; but it's definitely a powerful tool
 
 ### More on production SQLite for web servers
 
@@ -35,4 +35,10 @@ We all know that, by default, SQLite is not suitable to web applications. SQLite
 
 ## Strive for conceptual and operational compression
 
--- TODO: Monoliths, build for your current team size
+The Rails community really cares about about simplicity, and sees complexity as the bridge to progress. Not because we want to build simple applications, but because we want to build complex application using the simplest (and most enjoyable) solution possible.
+That's one of the reasons why people choose monoliths over microservices: not because [microservices are bad](https://www.youtube.com/watch?v=LcJKxPXYudE), but because monoliths are the simplest way to get things done. 
+
+Engineering teams should optimize development for their current team size and commit to never rewrite their apps. With this mindset you can archive:
+- Applications that live longer and healthier;
+- Developers can focus on a single codebase to develop and share knowledge;
+- Use resources as efficient as possible.
