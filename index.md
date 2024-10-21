@@ -6,3 +6,4 @@ layout: home
 ---
 
 <a rel="me" href="https://mastodon.social/@caiohsramos"></a>
+<a rel="me" href="https://ruby.social/@caiohsramos">Mastodon</a>
