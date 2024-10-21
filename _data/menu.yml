@@ -12,7 +12,7 @@ entries:
       - title: email
         url: mailto:contact@caioramos.dev
       - title: mastodon
-        url: https://mastodon.social/@caiohsramos
+        url: https://ruby.social/@caiohsramos
 
   - title: thoughts
     post_list:
