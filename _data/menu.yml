@@ -11,8 +11,7 @@ entries:
         url: https://www.linkedin.com/in/caiohsramos
       - title: email
         url: mailto:contact@caioramos.dev
-      - title: mastodon
-        url: https://ruby.social/@caiohsramos
+      - title: <a rel="me" href="https://ruby.social/@caiohsramos">mastodon</a>
 
   - title: thoughts
     post_list:
