@@ -12,6 +12,7 @@ entries:
       - title: email
         url: mailto:contact@caioramos.dev
       - title: <a rel="me" href="https://ruby.social/@caiohsramos">mastodon</a>
+      - title: <a rel="me" href="https://pixelfed.social/@caiohsramos">pixelfed</a>
 
   - title: thoughts
     post_list:
