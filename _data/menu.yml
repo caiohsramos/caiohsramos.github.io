@@ -11,7 +11,7 @@ entries:
         url: https://www.linkedin.com/in/caiohsramos
       - title: email
         url: mailto:contact@caioramos.dev
-      - title: <a rel="me" href="https://ruby.social/@caiohsramos">mastodon</a>
+      - title: <a rel="me" href="https://mastodon.social/@caiohsramos">mastodon</a>
       - title: <a rel="me" href="https://pixelfed.social/@caiohsramos">pixelfed</a>
 
   - title: thoughts
