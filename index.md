@@ -5,4 +5,4 @@
 layout: home
 ---
 
-<a href="https://mastodon.social/@caiohsramos" rel="me"></a>
+<a rel="me" href="https://mastodon.social/@caiohsramos">Mastodon</a>
