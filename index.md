@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-<a rel="me" href="https://mastodon.social/@caiohsramos"></a>
