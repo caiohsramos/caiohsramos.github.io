@@ -2,6 +2,7 @@
 layout: post
 title: "Rails World 2024, Kamal, #NoPaaS"
 date: 2024-10-17 22:00:00 -0300
+image: logo.png
 categories: dev ruby rails
 ---
 
@@ -23,7 +24,7 @@ This concept connects well with the new tools that will be defaults for new Rail
   - [Solid Cable](https://github.com/rails/solid_cable);
 - SQLite by default and production ready.
 
-Kamal also allows you to run and manage you own "accessories" such as databases, cache storages, and other services that complement your application. 
+Kamal also allows you to run and manage you own "accessories" such as databases, cache storages, and other services that complement your application.
 I'm not sure if I would trust myself to run my own Postgres instance in production from scratch, specially when I consider that managed solutions like [Managed Databases fro DigitalOcean](https://www.digitalocean.com/pricing/managed-databases#postgresql) start as low as $15 with a lot of out-of-the-box features; but it's definitely a powerful tool.
 
 ### More on production SQLite for web servers
@@ -36,7 +37,7 @@ We all know that, by default, SQLite is not suitable to web applications. SQLite
 ## Strive for conceptual and operational compression
 
 The Rails community really cares about about simplicity, and sees complexity as the bridge to progress. Not because we want to build simple applications, but because we want to build complex application using the simplest (and most enjoyable) solution possible.
-That's one of the reasons why people choose monoliths over microservices: not because [microservices are bad](https://www.youtube.com/watch?v=LcJKxPXYudE), but because monoliths are the simplest way to get things done. 
+That's one of the reasons why people choose monoliths over microservices: not because [microservices are bad](https://www.youtube.com/watch?v=LcJKxPXYudE), but because monoliths are the simplest way to get things done.
 
 Engineering teams should optimize development for their current team size and commit to never rewrite their apps. With this mindset you can archive:
 - Applications that live longer and healthier;
