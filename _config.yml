@@ -7,6 +7,8 @@ description: > # description of the site (multiple lines allowed)
   Personal page and blog
 permalink: /:slug.html
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+include:
+  - .well-known
 
 # Build settings
 markdown: kramdown
