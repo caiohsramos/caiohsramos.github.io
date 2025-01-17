@@ -37,5 +37,6 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
 
-gem "no-style-please"
+gem 'no-style-please', github: 'riggraz/no-style-please'
 
+gem 'bigdecimal'
